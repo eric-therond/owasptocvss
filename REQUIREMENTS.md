@@ -2,8 +2,8 @@
 
 ## Injections
 ### SQL Injection
- | Value | Comment
---- | --- | ---
+Value | Comment
+--- | ---
 Attack Vector | network | 
 Attack Complexity | low | 
 Privileges Required | none or low or high | answer to the question "privileges required ?"
@@ -14,8 +14,8 @@ Integrity | low | even if the attacker can modify data this is not the main atta
 Availability | none | even if the attacker can shutdown the database the website is still available
 
 ### Remote Code Injection
- | Value | Comment
---- | --- | ---
+Value | Comment
+--- | ---
 Attack Vector | network | 
 Attack Complexity | low | 
 Privileges Required | none or low or high | answer to the question "privileges required ?"
