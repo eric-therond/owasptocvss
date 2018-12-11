@@ -2,8 +2,8 @@
 
 ## Injections
 ### SQL Injection
-Value | Comment
---- | ---
+Parameter | Value | Comment
+--- | --- | ---
 Attack Vector | network | 
 Attack Complexity | low | 
 Privileges Required | none or low or high | answer to the question "privileges required ?"
@@ -14,8 +14,8 @@ Integrity | low | even if the attacker can modify data this is not the main atta
 Availability | none | even if the attacker can shutdown the database the website is still available
 
 ### Remote Code Injection
-Value | Comment
---- | ---
+Parameter | Value | Comment
+--- | --- | ---
 Attack Vector | network | 
 Attack Complexity | low | 
 Privileges Required | none or low or high | answer to the question "privileges required ?"
@@ -26,8 +26,8 @@ Integrity | high |
 Availability | high | 
 
 ### Remote File Injection
-Value | Comment
---- | ---
+Parameter | Value | Comment
+--- | --- | ---
 Attack Vector | network | 
 Attack Complexity | low | 
 Privileges Required | none or low or high | answer to the question "privileges required ?"
@@ -38,8 +38,8 @@ Integrity | high |
 Availability | none | 
 
 ### Local File Injection
-Value | Comment
---- | ---
+Parameter | Value | Comment
+--- | --- | ---
 Attack Vector | network | 
 Attack Complexity | low | 
 Privileges Required | none or low or high | answer to the question "privileges required ?"
@@ -50,8 +50,8 @@ Integrity | none |
 Availability | none | 
 
 ### HTTP Response Manipulation
-Value | Comment
---- | ---
+Parameter | Value | Comment
+--- | --- | ---
 Attack Vector | network | 
 Attack Complexity | low | 
 Privileges Required | none or low or high | answer to the question "privileges required ?"
@@ -62,8 +62,8 @@ Integrity | low |
 Availability | none | 
 
 ### Email injection
-Value | Comment
---- | ---
+Parameter | Value | Comment
+--- | --- | ---
 Attack Vector | network | 
 Attack Complexity | high | need user interaction and good phishing strategy
 Privileges Required | none or low or high | answer to the question "privileges required ?"
@@ -76,8 +76,8 @@ Availability | none |
 
 ## Broken authentication and session management
 ### Authentication bypass
-Value | Comment
---- | ---
+Parameter | Value | Comment
+--- | --- | ---
 Attack Vector | network | 
 Attack Complexity | low | 
 Privileges Required | none or low or high | answer to the question "privileges required ?"
@@ -88,8 +88,8 @@ Integrity | high |
 Availability | low | 
 
 ### Privilege escalation
-Value | Comment
---- | ---
+Parameter | Value | Comment
+--- | --- | ---
 Attack Vector | network | 
 Attack Complexity | high | 
 Privileges Required | none or low or high | answer to the question "privileges required ?"
@@ -100,8 +100,8 @@ Integrity | high |
 Availability | none | 
 
 ### Session fixation
-Value | Comment
---- | ---
+Parameter | Value | Comment
+--- | --- | ---
 Attack Vector | network | 
 Attack Complexity | high | 
 Privileges Required | none or low or high | answer to the question "privileges required ?"
@@ -112,8 +112,8 @@ Integrity | low |
 Availability | none | 
 
 ### Failure to invalidate session
-Value | Comment
---- | ---
+Parameter | Value | Comment
+--- | --- | ---
 Attack Vector | physical | most of the time invalidate session exploitation is when the victim is away from his computer and an attacker steal his session
 Attack Complexity | high | 
 Privileges Required | none or low or high | answer to the question "privileges required ?"
@@ -124,8 +124,8 @@ Integrity | low |
 Availability | none | 
 
 ### Concurrent logins
-Value | Comment
---- | ---
+Parameter | Value | Comment
+--- | --- | ---
 Attack Vector | network | 
 Attack Complexity | high | 
 Privileges Required | none or low or high | answer to the question "privileges required ?"
@@ -137,8 +137,8 @@ Availability | none |
 
 
 ## Xml External Entities
-Value | Comment
---- | ---
+Parameter | Value | Comment
+--- | --- | ---
 Attack Vector | network | 
 Attack Complexity | low | 
 Privileges Required | none or low or high | answer to the question "privileges required ?"
@@ -150,8 +150,8 @@ Availability | none |
 
 ## CSRF
 ### Wide CSRF
-Value | Comment
---- | ---
+Parameter | Value | Comment
+--- | --- | ---
 Attack Vector | network | 
 Attack Complexity | high | 
 Privileges Required | none or low or high | answer to the question "privileges required ?"
@@ -162,8 +162,8 @@ Integrity | low |
 Availability | low | 
 
 ### On authenticated action
-Value | Comment
---- | ---
+Parameter | Value | Comment
+--- | --- | ---
 Attack Vector | network | 
 Attack Complexity | high | 
 Privileges Required | none or low or high | answer to the question "privileges required ?"
@@ -174,8 +174,8 @@ Integrity | low |
 Availability | none | 
 
 ### On anonymous action
-Value | Comment
---- | ---
+Parameter | Value | Comment
+--- | --- | ---
 Attack Vector | network | 
 Attack Complexity | high | 
 Privileges Required | none or low or high | answer to the question "privileges required ?"
@@ -186,8 +186,8 @@ Integrity | low |
 Availability | none | 
 
 ### Logout action
-Value | Comment
---- | ---
+Parameter | Value | Comment
+--- | --- | ---
 Attack Vector | network | 
 Attack Complexity | high | 
 Privileges Required | none or low or high | answer to the question "privileges required ?"
@@ -200,8 +200,8 @@ Availability | none |
 
 ## XSS
 ### Stocked XSS
-Value | Comment
---- | ---
+Parameter | Value | Comment
+--- | --- | ---
 Attack Vector | network | 
 Attack Complexity | high | 
 Privileges Required | none or low or high | answer to the question "privileges required ?"
@@ -212,8 +212,8 @@ Integrity | low |
 Availability | none or low | answer to the question "impacted users by the xss?" (low = anonymous, none = others)
 
 ### Reflected XSS
-Value | Comment
---- | ---
+Parameter | Value | Comment
+--- | --- | ---
 Attack Vector | network | 
 Attack Complexity | high | 
 Privileges Required | none or low or high | answer to the question "privileges required ?"
@@ -224,8 +224,8 @@ Integrity | low |
 Availability | none or low | answer to the question "impacted users by the xss?" (low = anonymous because a lot of users' browsers are impacted, none = others) 
 
 ### Self reflected XSS
-Value | Comment
---- | ---
+Parameter | Value | Comment
+--- | --- | ---
 Attack Vector | network | 
 Attack Complexity | high | 
 Privileges Required | none or low or high | answer to the question "privileges required ?"
@@ -238,8 +238,8 @@ Availability | none | the only impacted user is the attacker
 
 ## Security Misconfiguration
 ### Unsafe cross origin resource sharing
-Value | Comment
---- | ---
+Parameter | Value | Comment
+--- | --- | ---
 Attack Vector | network | 
 Attack Complexity | low | 
 Privileges Required | none or low or high | answer to the question "privileges required ?"
@@ -250,8 +250,8 @@ Integrity | low |
 Availability | none | 
 
 ### Path traversal
-Value | Comment
---- | ---
+Parameter | Value | Comment
+--- | --- | ---
 Attack Vector | network | 
 Attack Complexity | low | 
 Privileges Required | none or low or high | answer to the question "privileges required ?"
@@ -262,8 +262,8 @@ Integrity | none |
 Availability | none | 
 
 ### Directory listing enabled
-Value | Comment
---- | ---
+Parameter | Value | Comment
+--- | --- | ---
 Attack Vector | network | 
 Attack Complexity | low | 
 Privileges Required | none or low or high | answer to the question "privileges required ?"
@@ -274,8 +274,8 @@ Integrity | low |
 Availability |low | 
 
 ### Same site scripting
-Value | Comment
---- | ---
+Parameter | Value | Comment
+--- | --- | ---
 Attack Vector | local | 
 Attack Complexity | high | 
 Privileges Required | none or low or high | answer to the question "privileges required ?"
@@ -286,8 +286,8 @@ Integrity | low |
 Availability | none | 
 
 ### Using default credentials
-Value | Comment
---- | ---
+Parameter | Value | Comment
+--- | --- | ---
 Attack Vector | network | 
 Attack Complexity | high | 
 Privileges Required | none or low or high | answer to the question "privileges required ?"
@@ -298,8 +298,8 @@ Integrity | none or low | answer to the question "impacted users by the xss?" (n
 Availability | none or low | answer to the question "impacted users by the xss?" (none = authenticated user, low = others)
 
 ### Potentially unsafe http method enabled
-Value | Comment
---- | ---
+Parameter | Value | Comment
+--- | --- | ---
 Attack Vector | network | 
 Attack Complexity | low | 
 Privileges Required | none or low or high | answer to the question "privileges required ?"
@@ -310,8 +310,8 @@ Integrity | none |
 Availability | none | 
 
 ### Insecure ssl
-Value | Comment
---- | ---
+Parameter | Value | Comment
+--- | --- | ---
 Attack Vector | network | 
 Attack Complexity | high | 
 Privileges Required | none or low or high | answer to the question "privileges required ?"
@@ -324,8 +324,8 @@ Availability | none |
 
 ## Sensitive data exposure
 ### Password disclosure
-Value | Comment
---- | ---
+Parameter | Value | Comment
+--- | --- | ---
 Attack Vector | network | 
 Attack Complexity | low | 
 Privileges Required | none or low or high | answer to the question "privileges required ?"
@@ -336,8 +336,8 @@ Integrity | high |
 Availability | low | 
 
 ### Private api keys
-Value | Comment
---- | ---
+Parameter | Value | Comment
+--- | --- | ---
 Attack Vector | network | 
 Attack Complexity | low | 
 Privileges Required | none or low or high | answer to the question "privileges required ?"
@@ -348,8 +348,8 @@ Integrity | high |
 Availability | low | 
 
 ### User enumeration
-Value | Comment
---- | ---
+Parameter | Value | Comment
+--- | --- | ---
 Attack Vector | network | 
 Attack Complexity | low or high | answer to the question "type of enumeration ?"
 Privileges Required | none or low or high | answer to the question "privileges required ?"
@@ -360,8 +360,8 @@ Integrity | none |
 Availability |none | 
 
 ### Visible detailed error page
-Value | Comment
---- | ---
+Parameter | Value | Comment
+--- | --- | ---
 Attack Vector | network | 
 Attack Complexity | low | 
 Privileges Required | none or low or high | answer to the question "privileges required ?"
@@ -372,8 +372,8 @@ Integrity | none |
 Availability | none | 
 
 ### token in url
-Value | Comment
---- | ---
+Parameter | Value | Comment
+--- | --- | ---
 Attack Vector | physical | need access to the log where urls are recorded
 Attack Complexity | low | 
 Privileges Required | none or low or high | answer to the question "privileges required ?"
@@ -384,8 +384,8 @@ Integrity | low or none | answer to the question "Type of token ?"
 Availability | none | 
 
 ### Internal ip disclosure
-Value | Comment
---- | ---
+Parameter | Value | Comment
+--- | --- | ---
 Attack Vector | network | 
 Attack Complexity | low | 
 Privileges Required | none or low or high | answer to the question "privileges required ?"
@@ -396,8 +396,8 @@ Integrity | none |
 Availability | none | 
 
 ### Internal hostname disclosure
-Value | Comment
---- | ---
+Parameter | Value | Comment
+--- | --- | ---
 Attack Vector | network | 
 Attack Complexity | low | 
 Privileges Required | none or low or high | answer to the question "privileges required ?"
@@ -410,8 +410,8 @@ Availability | none |
 
 ## Unvalidated Redirects and Forwards
 ### Open Redirect GET
-Value | Comment
---- | ---
+Parameter | Value | Comment
+--- | --- | ---
 Attack Vector | network | 
 Attack Complexity | low | 
 Privileges Required | none or low or high | answer to the question "privileges required ?"
@@ -422,8 +422,8 @@ Integrity | low |
 Availability | none | 
 
 ### Open Redirect POST
-Value | Comment
---- | ---
+Parameter | Value | Comment
+--- | --- | ---
 Attack Vector | network | 
 Attack Complexity | low | 
 Privileges Required | none or low or high | answer to the question "privileges required ?"
@@ -434,8 +434,8 @@ Integrity | none |
 Availability | none | 
 
 ### Open Redirect HEADERS
-Value | Comment
---- | ---
+Parameter | Value | Comment
+--- | --- | ---
 Attack Vector | network | 
 Attack Complexity | low | 
 Privileges Required | none or low or high | answer to the question "privileges required ?"
